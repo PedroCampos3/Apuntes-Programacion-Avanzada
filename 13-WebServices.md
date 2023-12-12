@@ -12,7 +12,7 @@ Las APIs no necesariamente deben estar en el sistema local.
 
 ## HTTP (Hypertext Transfer Protocol)
 
-Es un protocolo __request-response__ ya que el cliente hace una solicitud (__request__) y el servidor responde(__response__)
+Es un protocolo __request-response__ ya que el cliente hace una solicitud (__request__) y el servidor responde (__response__)
 
 Para funcionar se basa en la definición de algo que indica una acción sobre un recurso, que puede ser algun dato.
 
@@ -55,7 +55,8 @@ Para simular un API real usaremos la API de JSONPlaceholder
 
 Con `POST` podemos enviar info a la API pasandole un diccionario al parámetro `data`
 
-Ej: ```python
+Ej:
+```python
 noticia = requests.post('https://jsonplaceholder.typicode.com/posts', data=data)
 ```
 

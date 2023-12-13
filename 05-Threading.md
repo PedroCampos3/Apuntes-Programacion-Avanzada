@@ -30,12 +30,12 @@ para crearlos, hay que especificarlo cuando se crea el thread o se puede cambiar
 
 Al usar threads pueden haber errores inesperados como interrumpir una asignación a una variable, por lo tanto hay soluciones para poder sincronizar threads.
 
-1. **Lock:** Es una clase y para activar el lock se usa el método aquire (empezando la parte en la que no puede parar el thread) y se desactiva con el método release()
-    1. También funciona dentro de un context manager con `with`haciendo el aquire() y release() solo
+1. **Lock:** Es una clase y para activar el lock se usa el método `aquire` (empezando la parte en la que no puede parar el thread) y se desactiva con el método `release()`
+    1. También funciona dentro de un context manager con `with` haciendo el `aquire()` y `release()` solo
 2. **Event:** Para que otro thread empiece a partir de un evento en el primer thread.
     1. Esto se puede hacer con eventos (que Event es una clase y los eventos, objetos) en los que podemos modificar su valor bool
-    2. También se puede hacer con los metodos set() y wait() de los threads
-    3. is_set() es lo mismo que wait() pero da un valor bool así el thread puede continuar y volver a consultarlo después
+    2. También se puede hacer con los metodos `set()` y `wait()` de los threads
+    3. `is_set()` es lo mismo que `wait()` pero da un valor bool así el thread puede continuar y volver a consultarlo después
 
 ### Deadlocks:
 

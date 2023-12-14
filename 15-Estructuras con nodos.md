@@ -76,7 +76,7 @@ Las operaciones serán:
 
 ## Stack
 
-Un stack (pila) es otra estructura de datos y su comportamiento es de First In - Last Out
+Un stack (pila) es otra estructura de datos y su comportamiento es de Last In - First Out
 
 Tiene algunas operaciones como para sacar el elemento del tope, apilar otro elemento, conocer sin sacar el elemento del tope, saber su largo, etc.
 
